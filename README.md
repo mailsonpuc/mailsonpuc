@@ -5,12 +5,12 @@
 - 📫 How to reach me tg @m4isvv
 https://mailsonpuc.github.io/mailsonpuc/
 
-| First Header  | Second Header |
-| ------------- | ------------- |
+|                                    First Header  | Second Header                                    |
+|                                    ------------- | -------------                                    |
 | <span style='font-size:100px;'>&#128526;</span>  | <span style='font-size:100px;'>&#128520;</span>  |
-| <span style='font-size:100px;'>&#129312;</span>  |  
-<span style='font-size:100px;'>&#129324;</span>
-  |    
+| <span style='font-size:100px;'>&#129312;</span>  | <span style='font-size:100px;'>&#128128;</span>  |
+  <span style='font-size:100px;'>&#129324;</span>  | <span style='font-size:100px;'>&#128586;</span>
+
 
 <!---
 mailsonpuc/mailsonpuc is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
