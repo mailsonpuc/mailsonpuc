@@ -10,8 +10,8 @@ https://mailsonpuc.github.io/mailsonpuc/
 | <span style='font-size:100px;'>&#128526;</span>  | <span style='font-size:100px;'>&#128520;</span>  |
 | <span style='font-size:100px;'>&#129312;</span>  |  
 <span style='font-size:100px;'>&#129324;</span>
-<span style='font-size:100px;'>&#129488;</span>  |    
-<span style='font-size:100px;'>&#128128;</span>
+  |    
+
 <!---
 mailsonpuc/mailsonpuc is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
