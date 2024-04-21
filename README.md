@@ -1,15 +1,28 @@
-- 👋 Hi, I’m @mailsonpuc
-- 👀 I’m interested in python, javascript.
-- 🌱 I’m currently learning JavaScript.
-- 💞️ I’m looking to collaborate on web
-- 📫 How to reach me tg @m4isvv
-https://mailsonpuc.github.io/mailsonpuc/
 
-|                                    First Header  | Second Header                                    |
-|                                    ------------- | -------------                                    |
-| <span style='font-size:100px;'>&#128526;</span>  | <span style='font-size:100px;'>&#128520;</span>  |
-| <span style='font-size:100px;'>&#129312;</span>  | <span style='font-size:100px;'>&#128128;</span>  |
-  <span style='font-size:100px;'>&#129324;</span>  | <span style='font-size:100px;'>&#128586;</span>
+```bash
+masv@ubuntu:~$ cat about.txt
+
+Hi, I’m @mailsonpuc
+I’m interested in python, javascript.
+I’m looking to collaborate on web
+Email mailson.costa@proton.me
+https://mailsonpuc.github.io/mailsonpuc/
+```
+
+
+```bash
+masv@ubuntu:~$ cat learning.txt
+
+C SHARP
+JAVA SCRIPT
+HTML5
+CSS3
+SQL
+```
+
+
+
+
 
 
 <!---
