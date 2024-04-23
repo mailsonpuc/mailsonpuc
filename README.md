@@ -1,3 +1,5 @@
+<img src="undraw.svg">
+
 
 ```bash
 masv@ubuntu:~$ cat about.txt
