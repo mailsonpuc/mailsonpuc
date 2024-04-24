@@ -1,32 +1,29 @@
 
-<img src="undraw_feeling_proud_qne1.svg" width='400px'>
+<img src="img/undraw_feeling_proud_qne1.svg" width='400px'>
 
 
-```bash
-masv@ubuntu:~$ cat about.txt
 
+
+
+```python
+about = '''
 Hi, I’m @mailsonpuc
-I’m interested in python, javascript.
+I’m interested in python, javaScript, dotnet.
 I’m looking to collaborate on web
 Email mailson.costa@proton.me
+'''
+```
+
 https://mailsonpuc.github.io/mailsonpuc/
-```
 
+technologies used
 
-```bash
-masv@ubuntu:~$ cat learning.txt
-
-C SHARP
-JAVA SCRIPT
-HTML5
-CSS3
-SQL
-```
-
-
-
-
-
+| language   | code editor       | Operational System|
+|         ---|---                | ---               |
+| SQL        | Visual Studio Code| XUNBUNTU XFCE     |
+| C SHARP    | Sublime Text      | ANDROID           |
+| JAVA SCRiPT| Vim               |                   |
+| PYTHON3    |                   |                   |
 
 <!---
 mailsonpuc/mailsonpuc is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
