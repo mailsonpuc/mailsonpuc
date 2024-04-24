@@ -20,7 +20,7 @@ technologies used
 
 | language   | code editor       | Operational System|
 |         ---|---                | ---               |
-| SQL        | Visual Studio Code| XUNBUNTU XFCE     |
+| SQL        | Visual Studio Code| XUBUNTU XFCE     |
 | C SHARP    | Sublime Text      | ANDROID           |
 | JAVA SCRiPT| Vim               |                   |
 | PYTHON3    |                   |                   |
