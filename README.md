@@ -1,4 +1,5 @@
-<img src="undraw.svg">
+
+<img src="undraw_feeling_proud_qne1.svg" width='400px'>
 
 
 ```bash
