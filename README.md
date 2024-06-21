@@ -4,7 +4,6 @@
 
 
 
-
 ```python
 about = '''
 Hi, I’m @mailsonpuc
@@ -20,10 +19,18 @@ technologies used
 
 | language   | code editor       | Operational System|
 |         ---|---                | ---               |
-| SQL        | Visual Studio Code| XUBUNTU XFCE     |
+| SQL        | Visual Studio Code| XUBUNTU XFCE      |
 | C SHARP    | Sublime Text      | ANDROID           |
-| JAVA SCRiPT| Vim               |                   |
+| JAVA SCRiPT| Vim               | Linux Mint        |
 | PYTHON3    |                   |                   |
+
+
+
+
+## other possible profiles
+https://github.com/mailsonpuc 2023<br>
+https://github.com/m4isv 2019<br>
+https://github.com/mtk9090 2020<br>
 
 <!---
 mailsonpuc/mailsonpuc is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
