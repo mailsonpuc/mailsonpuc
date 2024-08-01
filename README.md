@@ -22,7 +22,7 @@ technologies used
 | SQL        | Visual Studio Code| XUBUNTU XFCE      |
 | C SHARP    | Sublime Text      | ANDROID           |
 | JAVA SCRiPT| Vim               | Linux Mint        |
-| PYTHON3    |                   |                   |
+| PYTHON3    |                   | ARCH Linux        |
 
 
 
