@@ -1,0 +1,39 @@
+/*altura*/
+@media screen and (max-height: 600px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+/*If the screen size is 600px or less , ssminima largura*/
+@media screen and (max-width: 600px) {
+    .grid-container {
+        display: block;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        /*background-color: blue;*/
+        padding: 10px;
+      }
+}
+
+/*If the screen size is 414px or less , tirar cor*/
+@media screen and (max-width: 418px) {
+  
+    .grid-container {
+        display: block;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        /*background-color: blue;*/
+        padding: 10px;
+      }
+      
+      .grid-container > div {
+        background-color: transparent;
+        border: none;
+        text-align: center;
+        font-size: 30px;
+      }
+    
+
+
+}
