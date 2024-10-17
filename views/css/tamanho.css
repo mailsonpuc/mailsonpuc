@@ -5,8 +5,8 @@
 }
 
 
-/*If the screen size is 600px or less , ssminima largura*/
-@media screen and (max-width: 600px) {
+/*If the screen size is 720px or less , ssminima largura*/
+@media screen and (max-width: 720px) {
     .grid-container {
         display: block;
         grid-template-columns: auto auto auto auto;
