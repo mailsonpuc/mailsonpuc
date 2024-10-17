@@ -1,12 +1,31 @@
-/*altura*/
-@media screen and (max-height: 600px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+/*---------------------------sidebar------------------------------*/
+/*quando for 700px ou menor*/
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
 }
+/*links do sidebar*/
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+/*---------------------------------------------------------------*/
 
 
-/*If the screen size is 720px or less , ssminima largura*/
-@media screen and (max-width: 720px) {
+
+
+
+
+/*---------------------------blocos------------------------------*/
+/*If the screen size is 600px or less , minima largura*/
+@media screen and (max-width: 600px) {
     .grid-container {
         display: block;
         grid-template-columns: auto auto auto auto;
@@ -34,6 +53,22 @@
         font-size: 30px;
       }
     
-
-
 }
+/*-----------------------------------------------------------------*/
+
+
+
+
+
+
+/*---------------------------perfil em 700px ou menor, diminuir------------------------------*/
+@media screen and (max-width: 700px) {
+  .perfil {
+    width: 200px;
+    margin-left: 30%;
+    margin-top: 30px;
+    border-radius: 50%;
+  
+  }
+}
+/*--------------------------------------------------------------------------------------------*/
