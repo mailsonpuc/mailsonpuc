@@ -1,5 +1,5 @@
 
-<img src="https://raw.githubusercontent.com/mailsonpuc/mailsonpuc/refs/heads/main/views/img/perifl.svg" width='200px'>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=711CB9&width=435&lines=Welcome%2C+I+am+mailsonpuc.)](https://git.io/typing-svg)
 
 
 
