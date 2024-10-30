@@ -1,0 +1,63 @@
+/*grid quadrado*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    /*background-color: blue;*/
+    padding: 10px;
+   
+  }
+  
+  .grid-container > div {
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+
+
+/*---------------------------------------------------------------------------*/
+  .grid-container > div {
+    position: relative;
+    animation: mymove 5s;
+    animation-fill-mode: forwards;
+  }
+
+  .espaco {animation-timing-function: linear;}
+  
+  @keyframes mymove {
+    from {left: -100%;}
+    to {left: 1px;}
+  }
+/*---------------------------------------------------------------------------*/
+  
+
+
+
+  /*--------------------------------------------------------------*/
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    /*background-color: blue;*/
+    padding: 10px;
+     /*add shadow;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  .grid-container2 > p {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+  /*--------------------------------------------------------------*/
+
