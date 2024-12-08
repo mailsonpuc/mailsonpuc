@@ -24,9 +24,9 @@ technologies used
 | JAVA SCRiPT| Vim               | Linux Mint        |
 | PYTHON3    |                   | ARCH Linux        |
 
-
+<!---
 ![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=mailsonpuc&bg_color=000&border_color=30A3DC&title_color=E94D5F&text_color=FFF)
-
+--->
 #### contact
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mailsonssv/)
 [![Telegram](https://img.shields.io/badge/Telegram-000?style=for-the-badge&logo=telegram&logoColor=2CA5E0)](https://t.me/mailsonssv)
