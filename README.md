@@ -61,11 +61,7 @@ technologies used
 ![Postman](https://img.shields.io/badge/Postman-FF6C37.svg?style=for-the-badge&logo=Postman&logoColor=white)
 
 
-## other possible profiles
-https://github.com/mailsonpuc 2023<br>
-https://github.com/m4isv 2019<br>
-https://github.com/mtk9090 2020<br>
-
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mailsonpuc&theme=transparent&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)
 <!---
 mailsonpuc/mailsonpuc is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
