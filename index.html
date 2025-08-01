@@ -1,120 +1,145 @@
 <!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1">   
-<meta charset="utf-8">
-<!-- Compiled and minified CSS -->
-<link href="views/css/fontawesome-free-6.6.0-web/css/fontawesome.css" rel="stylesheet" />
-<link href="views/css/fontawesome-free-6.6.0-web/css/brands.css" rel="stylesheet" />
-<link href="views/css/fontawesome-free-6.6.0-web/css/solid.css" rel="stylesheet" />
-<link rel="stylesheet" href="views/css/styles.css">
-<link rel="stylesheet" href="views/css/sidebar.css">
-<link rel="stylesheet" href="views/css/gridcss.css">
-<link rel="stylesheet" href="views/css/displayFlex.css">
-<link rel="stylesheet" href="views/css/tamanho.css">
-<link rel="stylesheet" href="views/css/GoogleFont.css">
+<html lang="pt-br">
+<head>
+  <title>Portfólio Mailson</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+    .highlight-box {
+      animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
+</head>
+<body class="w3-light-grey">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!-- Cabeçalho com apresentação -->
+<div class="w3-container w3-teal w3-center w3-padding-32">
+  <h1 class="w3-xxlarge">Olá, eu sou o Mailson!</h1>
+  <p class="w3-large">Transformando ideias em soluções robustas com <strong>.NET</strong> e <strong>C#</strong>.</p>
+</div>
 
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+  <div class="w3-row-padding">
+    
+    <!-- Coluna Esquerda -->
+    <div class="w3-third">
+      <div class="w3-white w3-text-grey w3-card-4 highlight-box">
+        <div class="w3-display-container">
+          <img src="https://avatars.githubusercontent.com/u/133193122?v=4" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2><em>Mailson</em></h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Desenvolvedor BackEnd</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Brasil, BR</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>mailson.costa@proton.me</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p>
+          <hr>
 
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Linux</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div>
+          </div>
+          <p>C#</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>.NET</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>SQL Server</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <br>
 
-<body>
-    <div class="sidebar">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-         <a href="#about">Contact</a>
+          <p class="w3-large"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Idiomas</b></p>
+          <p>Português</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Inglês</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:40%"></div>
+          </div>
+          <br>
+        </div>
       </div>
+    </div>
+
+    <!-- Coluna Direita -->
+    <div class="w3-twothird">
       
-      <div class="content">
-        <img class="perfil" src="https://avatars.githubusercontent.com/u/133193122?v=4">
-
-        <section class="section">
-            <h1>Skill</h1>
-            <h3>Frond-end</h3>
-            <div class="grid-container">
-                <div class="espaco"><img src="https://img.shields.io/badge/HTML5-39E09B?style=for-the-badge&logo=html5&logoColor=white " alt="html5" class="img" title="habilidade em html5"></div>
-                <div class="espaco"><img src="https://img.shields.io/badge/CSS3-39E09B?style=for-the-badge&logo=css3&logoColor=white" alt="css3" class="img" title="habilidade em css3"></div>
-                <div class="espaco"><img src="https://img.shields.io/badge/JavaScript-39E09B?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" class="img" title="habilidade em javascript"></div>  
-                <div class="espaco"><img src="https://img.shields.io/badge/React-39E09B?style=for-the-badge&logo=react&logoColor=white" alt="React" class="img" title="habilidade em ReactjS"></div>
-                <div class="espaco"><img src=" https://img.shields.io/badge/-boostrap-39E09B?style=for-the-badge&logo=bootstrap&labelColor=white" alt="Botstrep" class="img" title="habilidade no framework bootstrap"></div>
-            <div class="espaco"><img src=" https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Botstrep" class="img" title="habilidade no react native"></div>
-            
-            </div>
-            
-            
-
-            
-
-            <h3>back-end</h3>
-            <div class="grid-container">
-                <div class="espaco"><img src="https://img.shields.io/badge/C%23-39E09B?style=for-the-badge&logo=c-sharp&logoColor=white" alt="c sharp" class="img" title="habilidade em c-sharp"></div>
-                <div class="espaco"><img src="https://img.shields.io/badge/.NET-39E09B?style=for-the-badge&logo=.net&logoColor=white" alt="net" class="img" title="habilidade em dotnet"></div>
-                <div class="espaco"><img src="https://img.shields.io/badge/MySQL-39E09B?style=for-the-badge&logo=mysql&logoColor=white" alt="mysql" class="img" title="habilidade em mysql"></div>  
-                <div class="espaco"><img src="https://img.shields.io/badge/SQLite-39E09B?style=for-the-badge&logo=sqlite&logoColor=07405E" alt="sqlite3" class="img" title="habilidade em sqlite3"></div>
-                <div class="espaco"><img src="https://img.shields.io/badge/MariaDB-39E09B?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDb" class="img" title="habilidade em MariaDb"></div>
-           
-            
-            </div>
-           
-             <h4>Outras</h4>
-            <div class="grid-container">
-                <div class="espaco"><img src="https://img.shields.io/badge/Linux-39E09B?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux" class="img" title="habilidade em linux"></div>
-                <div class="espaco"><img src="https://img.shields.io/badge/Ubuntu-39E09B?style=for-the-badge&logo=ubuntu&logoColor=2CA5E0" alt="Ubuntu" class="img" title="habilidade em ubuntu"></div>
-                <div class="espaco"><img src="https://img.shields.io/badge/Linux%20Mint-39E09B?style=for-the-badge&logo=Linux%20Mint&logoColor=white" alt="Linux Mint" class="img" title="habilidade em linux mint"></div>
-                <div class="espaco"><img src="https://img.shields.io/badge/GIT-39E09B?style=for-the-badge&logo=git&logoColor=white" alt="git" class="img" title="habilidade em github"></div>
-                <div class="espaco"><img src="https://img.shields.io/badge/Postman-39E09B.svg?style=for-the-badge&logo=Postman&logoColor=white" alt="postman" class="img" title="habilidade em postman de api"></div>
-                <div class="espaco"><img src="https://img.shields.io/badge/bash%20script-39E09B?style=flat&logo=gnubash&logoColor=%23FFFFFF&labelColor=%23000000" alt="Bash Script" class="img" title="habilidade em Shell do Linux"></div>
-                
-            </div>
-
-
-                <h4>Sobre</h4>
-                <div class="grid-container2">
-                   <p>Sou estudante de desenvolvimento de software com foco em full stack. Atualmente, estou fazendo a graduação de <cite title="A Tecnologia em Sistemas para Internet é uma graduação tecnológica que forma profissionais para desenvolver, manter e garantir a segurança de sistemas, programas e aplicativos para a internet. "> Tecnologia em sistemas para internet</cite>.
-                 - Com uma mente criativa e dedicada, tenho muita curiosidade em explorar o mundo da programação e me aprofundar cada vez mais.</p>
-                </div>
-
-                <h4>Services</h4>
-                <div class="flex-container">
-                    <div>
-                        <h2>Desenvolvimento de Software</h2>
-                        <p>Criamos seu Software sob medida com banco de dados e as melhores tecnologias do mercado.</p>
-                    </div>
-
-                    <div>
-                        <h2>WebApi</h2>
-                        <p>Criação de API para seu negócio. Levamos seu negócio para todos os usuários com criação de API moderna com banco de dados.</p>
-                    </div>
-
-                    <div>
-                        <h2>Bot Telegram</h2>
-                        <p>Criamos seu bot de Telegram para interagir com usuários.</p>
-
-                    </div>  
-                </div>
-                  
-                    
-                <h4>Contact</h4>
-                <i class="fa-solid fa-user" style="font-size: 30px;"></i>
-                <i class="fa-solid fa-at" style="font-size: 30px;"></i>
-                <i class="fa-solid fa-code" style="font-size: 30px;"></i>
-                <i class="fa-solid fa-envelope" style="font-size: 30px;"></i>
-                <i class="fa-solid fa-graduation-cap" style="font-size: 30px;"></i>
-                <i class="fa-brands fa-telegram" style="font-size: 30px;"></i>
-                <i class="fa-brands  fa-x-twitter" style="font-size: 30px;"></i>
-               
-        </section>
+      <!-- Sobre mim -->
+      <div class="w3-container w3-card w3-white w3-margin-bottom highlight-box">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-user-circle fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Sobre mim</h2>
+        <p>Sou um desenvolvedor backend júnior apaixonado por resolver problemas com código limpo e eficiente. Tenho experiência com C#, .NET, SQL Server e Linux, e estou sempre buscando novas tecnologias para aprimorar minhas soluções. Curioso por natureza, adoro mergulhar em documentação, escrever APIs e transformar regras de negócio em sistemas que funcionam de verdade.</p>
       </div>
 
+      <!-- Experiência -->
+      <div class="w3-container w3-card w3-white w3-margin-bottom highlight-box">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Experiência Profissional</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Desenvolvimento de Software / Backend</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2020 - <span class="w3-tag w3-teal w3-round">Atualmente</span></h6>
+          <p>Criação de softwares personalizados com banco de dados e tecnologias modernas, focando em performance, escalabilidade e boas práticas.</p>
+          <hr>
+        </div>
+      </div>
 
+      <!-- Projetos -->
+      <div class="w3-container w3-card w3-white w3-margin-bottom highlight-box">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-code fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projetos</h2>
 
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>API de Gestão de Tarefas</b></h5>
+          <p>API RESTful em ASP.NET Core com autenticação JWT, Entity Framework e SQL Server.
+            <br><a href="https://github.com/mailson/task-api" target="_blank">Ver no GitHub</a>
+          </p>
+          <hr>
+        </div>
 
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Sistema de Controle de Estoque</b></h5>
+          <p>Backend com arquitetura limpa, integração com Azure SQL e padrões de design aplicados.
+            <br><a href="https://github.com/mailson/estoque-dotnet" target="_blank">Ver no GitHub</a>
+          </p>
+        </div>
+      </div>
 
+      <!-- Formação -->
+      <div class="w3-container w3-card w3-white highlight-box">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Educação</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Pontifícia Universidade Católica de Minas Gerais</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Em andamento</h6>
+          <p>Graduação em: Tecnologia em Sistemas para Internet</p>
+        </div>
+      </div>
 
+    </div>
+  </div>
+</div>
+
+<!-- Rodapé -->
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Conecte-se comigo!</p>
+  <a href="https://linkedin.com/in/mailson" target="_blank"><i class="fa fa-linkedin w3-hover-opacity w3-large w3-margin-right"></i></a>
+  <a href="https://github.com/mailson" target="_blank"><i class="fa fa-github w3-hover-opacity w3-large w3-margin-right"></i></a>
+  <p class="w3-small">© 2025 - Desenvolvido por Mailson com ❤ em .NET</p>
+</footer>
 
 </body>
-
 </html>
