@@ -1,201 +1,111 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
-  <title>Portfólio Mailson</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-    body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-    .highlight-box {
-      animation: fadeIn 2s ease-in-out;
-    }
-    @keyframes fadeIn {
-      from {opacity: 0;}
-      to {opacity: 1;}
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/script.js"> </script>
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>portfolio html,css puro</title>
+    <meta name="author" content="mailson" />
+    <meta name="keywords" content="aprendendo html, css puro." />
+    <meta name="description" content="fazendo um portfolio com html,css." />
 </head>
-<body class="w3-light-grey">
 
-<!-- Cabeçalho com apresentação -->
-<div class="w3-container w3-teal w3-center w3-padding-32">
-  <h1 class="w3-xxlarge">Olá, eu sou o Mailson!</h1>
-  <p class="w3-large">Transformando ideias em soluções robustas com <strong>.NET</strong> e <strong>C#</strong>.</p>
-</div>
+<body>
+    <!--Inicio header-->
+    <nav class="nav">
+        <ul class="nav-list">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#sobre">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos">Projetos</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Fim header-->
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
-  <div class="w3-row-padding">
-    
-    <!-- Coluna Esquerda -->
-    <div class="w3-third">
-      <div class="w3-white w3-text-grey w3-card-4 highlight-box">
-        <div class="w3-display-container">
-          <img src="https://avatars.githubusercontent.com/u/133193122?v=4" style="width:100%" alt="Avatar">
+
+    <!--Inicio Main-->
+    <section class="main" id="home">
+        <div>
+            <h1>Olá, <br>Seja bem vindo &#128516;</h1>
+            <p>Crie soluções para seu negócio!</p>
+            <a href="#projetos">
+                <button class="call-to-action">
+                    Veja meus projetos &#9997;
+                </button>
+            </a>
+        </div>
+    </section>
+    <!--Fim Main-->
+
+
+    <!--Sobre-->
+    <section class="about" id="sobre">
+        <div>
+            <h2>Sobre</h2>
+            <p>
+                Sou um desenvolvedor backend júnior apaixonado por resolver problemas
+                com código limpo e eficiente.
+                Tenho experiência com C#, .NET, SQL Server e Linux,
+                e estou sempre buscando novas tecnologias para
+                aprimorar minhas soluções. Curioso por natureza,
+                adoro mergulhar em documentação, escrever APIs e
+                transformar regras de negócio em sistemas que funcionam de verdade.
+            </p><br>
+            <h2>Experiência Profissional</h2>
+            <p>Desenvolvimento de Software / Backend<br>
+                Jan 2020 - Atualmente<br>
+                Criação de softwares personalizados com banco de dados e tecnologias modernas,
+                focando em performance,
+                escalabilidade e boas prática</p>
+        </div>
+        <img src="https://avatars.githubusercontent.com/u/133193122?v=4" alt="foto">
+    </section>
+    <!--Fim Sobre-->
+
+    <!--Inicio projeto-->
+    <section id="projetos" class="projects" id="projetos">
+        <h2>Meus projetos</h2>
+        <p>Conheça meus últimos projetos</p>
+
+        <div class="projects-list">
+            <img src="images/projeto1.png" alt="Foto do projeto 1" id="proj1">
+            <img src="images/projeto2.png" alt="Foto do projeto 2">
+            <img src="images/projeto3.png" alt="Foto do projeto 3">
         </div>
 
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Desenvolvedor BackEnd</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Brasil, BR</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>mailson.costa@proton.me</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p>
-          <hr>
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Linux</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div>
-          </div>
-          <p>C#</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>.NET</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-          </div>
-          <p>SQL Server</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-          </div>
-
-          <br>
-          <p class="w3-large"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Idiomas</b></p>
-          <p>Português</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <p>Inglês</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:40%"></div>
-          </div>
-          <br>
-
-     
-          <br>
-<p class="w3-large"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Certificados</b></p>
-
-<p>
-  <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-4dbdefb4-64b6-4ac3-abfd-3632e23bb83d.pdf" target="_blank">Dotnet Completo</a>
-</p>
-<div class="w3-light-grey w3-round-xlarge">
-  <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-</div>
+        <!-- <div class="projects-list">
+            <img src="images/projeto3.png" alt="Foto do projeto 3">
+            <img src="images/projeto2.png" alt="Foto do projeto 2">
+            <img src="images/projeto1.png" alt="Foto do projeto 1">
+        </div> -->
 
 
-<p>
-  <a href="https://www.udemy.com/certificate/UC-408a87ff-1197-40e1-8fbf-fd0a2d9b7765/" target="_blank">WebApi Completo</a>
-</p>
-<div class="w3-light-grey w3-round-xlarge">
-  <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-</div>
-<br>
+        <button class="action">Faça um orçamento</button>
+    </section>
+    <!--Fim projeto-->
 
-
-
-<p>
-  <a href="https://www.linkedin.com/in/mailsonssv/details/certifications/1751339531996/single-media-viewer/?profileId=ACoAABtJjYkBtdT084vL-F-DoH9p7TaROOn4o_I" target="_blank">Projeto de sistemas web - IFRS</a>
-</p>
-<div class="w3-light-grey w3-round-xlarge">
-  <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-</div>
-<br>
-
-
-        </div>
-
-      </div>
-    </div>
-
-
-    
-    <!-- Coluna Direita -->
-    <div class="w3-twothird">
-      
-      <!-- Sobre mim -->
-      <div class="w3-container w3-card w3-white w3-margin-bottom highlight-box">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-user-circle fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Sobre mim</h2>
-        <p>Sou um desenvolvedor backend júnior apaixonado por resolver problemas com código limpo e eficiente. Tenho experiência com C#, .NET, SQL Server e Linux, e estou sempre buscando novas tecnologias para aprimorar minhas soluções. Curioso por natureza, adoro mergulhar em documentação, escrever APIs e transformar regras de negócio em sistemas que funcionam de verdade.</p>
-      </div>
-
-      <!-- Experiência -->
-      <div class="w3-container w3-card w3-white w3-margin-bottom highlight-box">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Experiência Profissional</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Desenvolvimento de Software / Backend</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2020 - <span class="w3-tag w3-teal w3-round">Atualmente</span></h6>
-          <p>Criação de softwares personalizados com banco de dados e tecnologias modernas, focando em performance, escalabilidade e boas práticas.</p>
-          <hr>
-        </div>
-      </div>
-
-      <!-- Projetos -->
-      <div class="w3-container w3-card w3-white w3-margin-bottom highlight-box">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-code fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projetos</h2>
-
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>API de Barbearia</b></h5>
-          <p>API RESTful de barbearia em ASP.NET Core completa, Backend com arquitetura limpa, integração com Azure SQL e padrões de design aplicados, alguns padrões de projetos usados:</p>
-          <ul>
-            <li><b>Padrão assíncrono</b> — evita bloqueio de threads em operações demoradas.</li>
-            <li><b>Repository Pattern</b> — abstração da camada de dados.</li>
-            <li><b>DTOs</b> — transporte de dados entre camadas.</li>
-            <li><b>Unit of Work</b> — coordena transações no banco de dados.</li>
-            <li><b>Identity</b> — gerenciamento de usuários e autenticação.</li>
-            <li><b>JWT</b> — autenticação segura entre cliente e servidor.</li>
-            <li><b>Xunit</b> — framework de testes unitários.</li>
-          </ul>
-          <hr>
-
-          <!-- Imagens em grid -->
-          <div class="w3-row-padding">
-            <div class="w3-half">
-              <img src="img/Screenshot_20250901_112756.png" style="width:100%">
-            </div>
-            <div class="w3-half">
-              <img src="img/Screenshot_20250901_112831.png" style="width:100%">
-            </div>
-          </div>
-
-          <div class="w3-row-padding w3-margin-top">
-            <div class="w3-half">
-              <img src="img/Screenshot_20250901_113017.png" style="width:100%">
-            </div>
-            <div class="w3-half">
-              <!-- espaço para futura imagem -->
-            </div>
-          </div>
-
-          <br><a href="https://github.com/mailsonpuc/pmv-sint-2025-1-e5-proj-movext-t1-barberconnect" target="_blank">Ver no GitHub, esse e outros.</a>
-          <hr>
-        </div>
-
-      </div>
-
-      <!-- Formação -->
-      <div class="w3-container w3-card w3-white highlight-box">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Educação</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Pontifícia Universidade Católica de Minas Gerais</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Completo</h6>
-          <p>Graduação em: Tecnologia em Sistemas para Internet</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-
-<!-- Rodapé -->
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Conecte-se comigo!</p>
-  <a href="https://www.linkedin.com/in/mailsonssv/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity w3-large w3-margin-right"></i></a>
-  <a href="https://github.com/mailsonpuc" target="_blank"><i class="fa fa-github w3-hover-opacity w3-large w3-margin-right"></i></a>
-  <p class="w3-small">© 2025 - Desenvolvido por Mailson com ❤ em .NET</p>
-</footer>
+    <!-- INICIO RODAPE -->
+    <footer>
+        <h3>
+            <a href="#">Mailson</a>
+        </h3>
+        <p>Todos direitos reservados!</p>
+    </footer>
+    <!-- FIM RODAPE -->
 
 </body>
+
 </html>
