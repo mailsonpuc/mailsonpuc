@@ -15,14 +15,6 @@ Email mailson.costa@proton.me
 
 https://mailsonpuc.github.io/mailsonpuc/
 
-technologies used
-
-| language   | code editor       | Operational System|
-|         ---|---                | ---               |
-| SQL        | Visual Studio Code| XUBUNTU XFCE      |
-| C SHARP    | Sublime Text      | ANDROID           |
-| JAVA SCRiPT| Vim               | Linux Mint        |
-| PYTHON3    |                   | ARCH Linux        |
 
 <!---
 ![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=mailsonpuc&bg_color=000&border_color=30A3DC&title_color=E94D5F&text_color=FFF)
@@ -37,9 +29,7 @@ technologies used
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
 ![BashScript](https://img.shields.io/badge/bash%20script-0101?style=flat&logo=gnubash&logoColor=%23FFFFFF&labelColor=%23000000)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
