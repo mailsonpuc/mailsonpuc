@@ -119,6 +119,76 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
 
+            else if (imgSrc.endsWith('projeto5.png')) {
+                console.log("Projeto 5 clicado");
+                // Código para o Projeto 3
+                Swal.fire({
+                    title: altText,
+                    html: `
+                    <img src="${imgSrc}" style="max-width: 100%; height: auto; border-radius: 8px;">
+                    <br><br>
+                     <p>Um e-commerce completo desenvolvido do zero à produção com React, .NET e Azure!
+                     Frontend (Vercel)
+                     React + TypeScript (Vite) para performance e tipagem segura
+                     Context API para o carrinho de compras
+                     Tailwind CSS para design responsivo
+                     Axios para requisições HTTP
+                     Deploy com CI/CD no Vercel
+                     ⚙️ Backend (Azure)
+                     ASP.NET Core (C#) para API robusta
+                     JWT para autenticação segura
+                      Swagger/OpenAPI para documentação
+                      Deploy na Azure Cloud
+                      Confira a aplicação: 
+                    </p>
+               
+                    <a href="https://lnkd.in/dY3maY9k" target="_blank" style="display: inline-block; margin-top: 15px;">
+                    <button class="call-to-action">Ver Online</button>
+                    </a>`,
+                    showCloseButton: true,
+                    focusConfirm: false,
+                    confirmButtonText: 'Fechar',
+                    confirmButtonAriaLabel: 'Fechar o pop-up'
+                });
+            }
+
+
+
+
+
+            else if (imgSrc.endsWith('projeto6.png')) {
+                console.log("Projeto 6 clicado");
+                // Código para o Projeto 3
+                Swal.fire({
+                    title: altText,
+                    html: `
+                    <img src="${imgSrc}" style="max-width: 100%; height: auto; border-radius: 8px;">
+                    <br><br>
+                     <p>Um e-commerce de PetShoop completo desenvolvido do zero à produção com React, .NET e Azure!
+                     Frontend (Vercel)
+                     
+                     Context API para o carrinho de compras
+                     Tailwind CSS para design responsivo
+                    
+                     ASP.NET Core (C#) para API robusta
+                   
+                      Swagger/OpenAPI para documentação
+                      Deploy na Azure Cloud
+                      Confira a aplicação: 
+                    </p>
+               
+                    <a href="https://pet-shoop-full-stack.vercel.app/" target="_blank" style="display: inline-block; margin-top: 15px;">
+                    <button class="call-to-action">Ver Online</button>
+                    </a>`,
+                    showCloseButton: true,
+                    focusConfirm: false,
+                    confirmButtonText: 'Fechar',
+                    confirmButtonAriaLabel: 'Fechar o pop-up'
+                });
+            }
+
+
+
         });
     });
 });
