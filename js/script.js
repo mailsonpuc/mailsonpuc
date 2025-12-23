@@ -189,6 +189,37 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
 
+            else if (imgSrc.endsWith('projeto7.png')) {
+                console.log("Projeto 7 clicado");
+                // Código para o Projeto 3
+                Swal.fire({
+                    title: altText,
+                    html: `
+                    <img src="${imgSrc}" style="max-width: 100%; height: auto; border-radius: 8px;">
+                    <br><br>
+                     <p>Uma plataforma de cursos completo desenvolvido do zero.
+                     Com varias funcionalidades, deshboard de administração para gerenciar usuarios, sistema de login e muito mais.
+        
+                     Tailwind CSS para design responsivo
+                    
+                     ASP.NET Core (C#) para API robusta
+                   
+                      Swagger/OpenAPI para documentação
+                      Deploy na Azure Cloud
+                       
+                    </p>
+               
+                    <a href="#projetos" target="_blank" style="display: inline-block; margin-top: 15px;">
+                    <button class="call-to-action">Projeto privado</button>
+                    </a>`,
+                    showCloseButton: true,
+                    focusConfirm: false,
+                    confirmButtonText: 'Fechar',
+                    confirmButtonAriaLabel: 'Fechar o pop-up'
+                });
+            }
+
+
         });
     });
 });
