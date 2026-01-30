@@ -40,5 +40,3 @@ about = {
 
 
 <br><br><br><br>
-### GitHub Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=mailsonpuc&show_icons=true&bg_color=000000&title_color=9B5DE5&text_color=FFFFFF&icon_color=F15BB5&border_color=7B2CBF" /> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mailsonpuc&layout=compact&bg_color=000000&title_color=9B5DE5&text_color=FFFFFF&border_color=7B2CBF" /> </p>
