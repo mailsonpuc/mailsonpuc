@@ -40,6 +40,8 @@ https://mailsonpuc.github.io/mailsonpuc/
 #### database
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-000?style=for-the-badge&logo=sqlite&logoColor=07405E)
+![SQL Server](https://img.shields.io/badge/SQLserver-000?style=for-the-badge&logo=sqlite&logoColor=07405E)
+
 
 #### others
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
