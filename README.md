@@ -1,60 +1,44 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=Welcome%2C+I+am+Mailson+Puc;Backend+Developer;.NET+%7C+Blazor+%7C+APIs)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=711CB9&width=435&lines=Welcome%2C+I+am+mailsonpuc.)](https://git.io/typing-svg)
+---
 
-
-
+## 👋 Sobre mim
 
 ```python
-about = '''
-Hi, I’m @mailsonpuc
-I’m interested in python, javaScript, dotnet.
-I’m looking to collaborate on web
-Email mailson.costa@proton.me
-'''
+about = {
+    "name": "Mailson Puc",
+    "role": "Backend Developer",
+    "stack": [".NET", "Blazor", "APIs", "JavaScript"],
+    "interests": ["Web Development", "APIs", "Clean Architecture"],
+    "email": "mailson.costa@proton.me"
+}
 ```
 
-https://mailsonpuc.github.io/mailsonpuc/
+
+### Tecnologias Backend (Principal foco)
+<p> <img src="https://img.shields.io/badge/.NET-10-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/> <img src="https://img.shields.io/badge/C%23-12-7B2CBF?style=for-the-badge&logo=csharp&logoColor=white"/> <img src="https://img.shields.io/badge/ASP.NET%20Core-Backend-9B5DE5?style=for-the-badge&logo=dotnet&logoColor=white"/> <img src="https://img.shields.io/badge/Blazor-7B2CBF?style=for-the-badge&logo=blazor&logoColor=white"/> <img src="https://img.shields.io/badge/Swagger-API-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/> </p>
 
 
-<!---
-![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=mailsonpuc&bg_color=000&border_color=30A3DC&title_color=E94D5F&text_color=FFF)
---->
-#### contact
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mailsonssv/)
-[![Telegram](https://img.shields.io/badge/Telegram-000?style=for-the-badge&logo=telegram&logoColor=2CA5E0)](https://t.me/mailsonssv)
-[![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=007BFF)](mailto:mailson.costa@proton.me)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://mailsonpuc.github.io/mailsonpuc/)
-
-#### lang
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![BashScript](https://img.shields.io/badge/bash%20script-0101?style=flat&logo=gnubash&logoColor=%23FFFFFF&labelColor=%23000000)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-#### frameworks
-![Bootstrap](https://img.shields.io/badge/-boostrap-0D1117?style=for-the-badge&logo=bootstrap&labelColor=0D1117)
-![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-
-#### database
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-000?style=for-the-badge&logo=sqlite&logoColor=07405E)
-![SQL Server](https://img.shields.io/badge/SQLserver-000?style=for-the-badge&logo=sqlite&logoColor=07405E)
+## Segurança & Arquitetura
+<p> <img src="https://img.shields.io/badge/JWT-Authentication-F15BB5?style=for-the-badge"/> <img src="https://img.shields.io/badge/Clean%20Architecture-9B5DE5?style=for-the-badge"/> <img src="https://img.shields.io/badge/DDD-7B2CBF?style=for-the-badge"/> <img src="https://img.shields.io/badge/SOLID-F15BB5?style=for-the-badge"/> </p>
 
 
-#### others
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-000?style=for-the-badge&logo=linux&logoColor=FCC624)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-35495E?style=for-the-badge&logo=ubuntu&logoColor=2CA5E0)
-![Mint](https://img.shields.io/badge/Linux%20Mint-87CF3E?style=for-the-badge&logo=Linux%20Mint&logoColor=white)
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![Vscode](https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37.svg?style=for-the-badge&logo=Postman&logoColor=white)
+### Frontend & Web
+<p> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-9B5DE5?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/React-7B2CBF?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Bootstrap-9B5DE5?style=for-the-badge&logo=bootstrap&logoColor=white"/> </p>
 
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mailsonpuc&theme=transparent&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF)
-<!---
-mailsonpuc/mailsonpuc is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+### Banco de Dados
+<p> <img src="https://img.shields.io/badge/SQL%20Server-512BD4?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-7B2CBF?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/SQLite-9B5DE5?style=for-the-badge&logo=sqlite&logoColor=white"/> </p>
+
+
+
+### Ferramentas & DevOps
+<p> <img src="https://img.shields.io/badge/Linux-000?style=for-the-badge&logo=linux&logoColor=FCC624"/> <img src="https://img.shields.io/badge/Git-F15BB5?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-7B2CBF?style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-9B5DE5?style=for-the-badge&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/VSCode-512BD4?style=for-the-badge&logo=visual-studio-code&logoColor=white"/> </p
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+## Contato
+<p align="left"> <a href="https://www.linkedin.com/in/mailsonssv/"> <img src="https://img.shields.io/badge/LinkedIn-9B5DE5?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> <a href="https://t.me/mailsonssv"> <img src="https://img.shields.io/badge/Telegram-7B2CBF?style=for-the-badge&logo=telegram&logoColor=white"/> </a> <a href="mailto:mailson.costa@proton.me"> <img src="https://img.shields.io/badge/Email-F15BB5?style=for-the-badge&logo=protonmail&logoColor=white"/> </a> <a href="https://mailsonpuc.github.io/mailsonpuc/"> <img src="https://img.shields.io/badge/Portfolio-9B5DE5?style=for-the-badge&logo=todoist&logoColor=white"/> </a> </p>
+
+
+<br><br><br><br>
+### GitHub Stats
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=mailsonpuc&show_icons=true&bg_color=000000&title_color=9B5DE5&text_color=FFFFFF&icon_color=F15BB5&border_color=7B2CBF" /> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mailsonpuc&layout=compact&bg_color=000000&title_color=9B5DE5&text_color=FFFFFF&border_color=7B2CBF" /> </p>
